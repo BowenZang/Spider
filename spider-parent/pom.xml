@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.bowenzang</groupId>
+    <artifactId>spider-parent</artifactId>
+    <version>${reverison}</version>
+    <packaging>pom</packaging>
+
+    <name>${project.artifactId}</name>
+    <description>The parent project of spider</description>
+    <url>https://github.com/BowenZang/Spider</url>
+    <inceptionYear>2020</inceptionYear>
+
+    <scm>
+        <url>https://github.com/BowenZang/Spider</url>
+        <connection>scm:git:https://github.com/BowenZang/Spider.git</connection>
+        <developerConnection>scm:git:https://github.com/BowenZang/Spider.git</developerConnection>
+        <tag>HEAD</tag>
+    </scm>
+    <organization>
+        <name>bowenzang's web</name>
+        <url>www.bowenzang.com/cn</url>
+    </organization>
+    <issueManagement>
+        <system>Github Issues</system>
+        <url>https://github.com/BowenZang/Spider/issues</url>
+    </issueManagement>
+
+    <properties>
+        <!-- Global version -->
+        <reverison>1.0.0-SNAPSHOT</reverison>
+        <skip_maven_deploy>false</skip_maven_deploy>
+        <skip_maven_test>false</skip_maven_test>
+        <!-- Maven plugins -->
+        <maven_jar_version>3.0.2</maven_jar_version>
+        <maven_surefire_version>2.22.1</maven_surefire_version>
+        <maven_deploy_version>2.8.2</maven_deploy_version>
+        <maven_compiler_version>3.6.0</maven_compiler_version>
+        <maven_source_version>3.0.1</maven_source_version>
+        <maven_javadoc_version>3.0.1</maven_javadoc_version>
+        <maven_jetty_version>9.4.11.v20180605</maven_jetty_version>
+        <maven_checkstyle_version>3.0.0</maven_checkstyle_version>
+        <maven_jacoco_version>0.8.2</maven_jacoco_version>
+        <maven_flatten_version>1.1.0</maven_flatten_version>
+        <apache-rat-plugin.version>0.12</apache-rat-plugin.version>
+        <arguments />
+        <checkstyle.skip>true</checkstyle.skip>
+        <rat.skip>true</rat.skip>
+    </properties>
+
+    <modules>
+        <module>spider</module>
+        <module>spider-bom</module>
+        <module>spider-config</module>
+        <module>spider-cluster</module>
+        <module>spider-common</module>
+        <module>spider-monitor</module>
+        <module>spider-plugin</module>
+        <module>spider-registry</module>
+        <module>spider-rpc</module>
+        <module>spider-remoting</module>
+        <module>spider-serialization</module>
+        <module>spider-demo</module>
+        <module>spider-bom</module>
+        <module>spider-cluster</module>
+        <module>spider-common</module>
+        <module>spider-config</module>
+        <module>spider-filter</module>
+        <module>spider-monitor</module>
+        <module>spider-plugin</module>
+        <module>spider-registry</module>
+        <module>spider-remoting</module>
+        <module>spider-rpc</module>
+        <module>spider-serialization</module>
+        <module>spider-metadata-report</module>
+        <module>spider-demo</module>
+        <module>spider-container</module>
+        <module>spider-configcenter</module>
+    </modules>
+</project>
