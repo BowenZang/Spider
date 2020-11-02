@@ -21,7 +21,7 @@
         <tag>HEAD</tag>
     </scm>
     <organization>
-        <name>bowenzang's web</name>
+        <name>BowenZang's web</name>
         <url>www.bowenzang.com/cn</url>
     </organization>
     <issueManagement>
@@ -32,23 +32,6 @@
     <properties>
         <!-- Global version -->
         <reverison>1.0.0-SNAPSHOT</reverison>
-        <skip_maven_deploy>false</skip_maven_deploy>
-        <skip_maven_test>false</skip_maven_test>
-        <!-- Maven plugins -->
-        <maven_jar_version>3.0.2</maven_jar_version>
-        <maven_surefire_version>2.22.1</maven_surefire_version>
-        <maven_deploy_version>2.8.2</maven_deploy_version>
-        <maven_compiler_version>3.6.0</maven_compiler_version>
-        <maven_source_version>3.0.1</maven_source_version>
-        <maven_javadoc_version>3.0.1</maven_javadoc_version>
-        <maven_jetty_version>9.4.11.v20180605</maven_jetty_version>
-        <maven_checkstyle_version>3.0.0</maven_checkstyle_version>
-        <maven_jacoco_version>0.8.2</maven_jacoco_version>
-        <maven_flatten_version>1.1.0</maven_flatten_version>
-        <apache-rat-plugin.version>0.12</apache-rat-plugin.version>
-        <arguments />
-        <checkstyle.skip>true</checkstyle.skip>
-        <rat.skip>true</rat.skip>
     </properties>
 
     <modules>
